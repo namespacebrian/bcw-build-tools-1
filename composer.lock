@@ -1666,16 +1666,16 @@
         },
         {
             "name": "drupal/drupal-driver",
-            "version": "v2.1.1",
+            "version": "v2.1.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/jhedstrom/DrupalDriver.git",
-                "reference": "a33cb7618476997e1b7330ae9225c91cbab32e1c"
+                "reference": "f60c4f6b4abb0b6e4882c95f1368997b78959ee3"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/jhedstrom/DrupalDriver/zipball/a33cb7618476997e1b7330ae9225c91cbab32e1c",
-                "reference": "a33cb7618476997e1b7330ae9225c91cbab32e1c",
+                "url": "https://api.github.com/repos/jhedstrom/DrupalDriver/zipball/f60c4f6b4abb0b6e4882c95f1368997b78959ee3",
+                "reference": "f60c4f6b4abb0b6e4882c95f1368997b78959ee3",
                 "shasum": ""
             },
             "require": {
@@ -1716,11 +1716,13 @@
                 "test",
                 "web"
             ],
-            "support": {
-                "issues": "https://github.com/jhedstrom/DrupalDriver/issues",
-                "source": "https://github.com/jhedstrom/DrupalDriver/tree/v2.1.1"
-            },
-            "time": "2021-05-07T20:47:33+00:00"
+            "funding": [
+                {
+                    "url": "https://github.com/jhedstrom",
+                    "type": "github"
+                }
+            ],
+            "time": "2022-04-25T20:32:14+00:00"
         },
         {
             "name": "drush-ops/behat-drush-endpoint",
@@ -8752,16 +8754,16 @@
         },
         {
             "name": "phpstan/phpdoc-parser",
-            "version": "1.4.4",
+            "version": "1.4.5",
             "source": {
                 "type": "git",
                 "url": "https://github.com/phpstan/phpdoc-parser.git",
-                "reference": "d8e9fd97ca11f2f24fc1aafbcfb1f78bce762267"
+                "reference": "129a63b3bc7caeb593c224c41f420675e63cfefc"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/phpstan/phpdoc-parser/zipball/d8e9fd97ca11f2f24fc1aafbcfb1f78bce762267",
-                "reference": "d8e9fd97ca11f2f24fc1aafbcfb1f78bce762267",
+                "url": "https://api.github.com/repos/phpstan/phpdoc-parser/zipball/129a63b3bc7caeb593c224c41f420675e63cfefc",
+                "reference": "129a63b3bc7caeb593c224c41f420675e63cfefc",
                 "shasum": ""
             },
             "require": {
@@ -8788,7 +8790,7 @@
                 "MIT"
             ],
             "description": "PHPDoc parser with support for nullable, intersection and generic types",
-            "time": "2022-04-14T12:24:06+00:00"
+            "time": "2022-04-22T11:11:01+00:00"
         },
         {
             "name": "phpunit/php-code-coverage",
